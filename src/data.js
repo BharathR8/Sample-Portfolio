@@ -3,48 +3,52 @@ export const projects = [
         title: "Pig Game",
         subtitle: "MERN Stack",
         description: "This game is played with using a Dice where the user is supposed to roll the dice to get the desired number",
-        image: "./images/pig-game.jpg",
+        image: "/images/pig-game.jpg",
         link: "https://reactbootcamp.com"
     },
     {
         title: "Budget Planner App",
         subtitle: "MERN Stack",
         description: "This was a budget planner app build to help the user plan their finances better",
-        image: "./images/budgety.jpg",
+        image: "/images/budgety.jpg",
         link: "https://react-app.com"
     },
     {
         title: "Forkify",
         subtitle: "JavaScript, HTML & CSS",
         description: "This was a recipe search app wherein the user can search any recipe from a list of around 10,000 recipes rendered from an API",
-        image: "./images/forkify.jpg",
+        image: "/images/forkify.jpg",
         link: "https://forkify.com"
     },
     {
         title: "Movie Database",
         subtitle: "JavaScript and JQuery",
         description: "This was an app built for the user to search for movies from a global list of movies database accessed using the IMDB api",
-        image: "./images/movies.jpg",
+        image: "/images/movies.jpg",
         link: "https://movie-database.com"
     },
 ]
 
-export const skills = ["JavaScript", "HTML", "CSS", "Python", "Node", "PHP", "Java"];
+export const skills = ["JavaScript", "HTML", "CSS", "Python", "Node", "PHP", "Java", "MySQL"];
 
 export const testimonials = [
     {
         name: "Adam",
-        image: "./images/adam.jpg",
-        company: "Accenture"
+        image: "/images/adam.jpg",
+        company: "Accenture",
+        quote: "Bharath is a diligent employee and I have been in association with him over the last 2 years while he was an employee at Accenture. He is steadfast and a quick learner"
     },
     {
         name: "Ranjith",
-        image: "./images/ranjith.jpg",
-        company: "Amazon"
+        image: "/images/ranjith.jpg",
+        company: "Amazon",
+        quote: "Bharath worked for Amazon between 2019 & 2021 and was a valuable asset for our team and a great addition to the Prime video domain. His work was resourceful in bringing new content to the Prime video platform"
     },
     {
         name: "Shekhar",
-        image: "./images/shekar.jpg",
-        company: "Dell"
+        image: "/images/shekar.jpg",
+        company: "Dell",
+        quote: "Bharath's association with Dell dates to 2018 when he joined as a new grad with little to no experience but still got up to speed pretty fast and ended up being one of the key performers of the team"
     }
 ]
+
