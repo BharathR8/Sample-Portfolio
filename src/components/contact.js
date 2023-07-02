@@ -51,10 +51,10 @@ export default function Contact() {
                             <p className="text-green-400 leading-relaxed">
                                 bharathchandra.bcr@gmail.com
                             </p>
-                            <h2 className="text-green-400 title-font font-semibold text-white tracking-widest text-xs mt-4">
+                            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">360-209-9680</p>
+                            <p className="text-green-400 leading-relaxed">360-209-9680</p>
                         </div>
                     </div>
                 </div>
