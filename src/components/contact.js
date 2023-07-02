@@ -18,10 +18,10 @@ export default function Contact() {
         fetch("/", {
             method:"POST",
             headers:{"Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", name, email, message}),
+            headers:{"Content-Type": "application/x-www-form-urlencoded"},
         })
-            .then(() => alert("Message sent!"))
-            .catch((error) => alert(error));
+        .then(() => alert("Message sent!"))
+        .catch((error) => alert(error));
     }
     
 
@@ -38,22 +38,22 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 ADDRESS
                             </h2>
-                            <p className="mt-1">
-                                97 Warren St. <br />
-                                New York, NY 1007
+                            <p className="text-green-400 mt-1">
+                                4181 129th PL SE, Apt X103 <br />
+                                Bellevue, WA 98006
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 EMAIL
                             </h2>
-                            <p className="text-indigo-400 leading-relaxed">
-                                reedbarger@email.com
+                            <p className="text-green-400 leading-relaxed">
+                                bharath.barakam@outlook.com
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">123-456-7890</p>
+                            <p className="text-green-400 leading-relaxed">360-209-9680</p>
                         </div>
                     </div>
                 </div>
