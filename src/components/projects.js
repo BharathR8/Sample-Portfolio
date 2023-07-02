@@ -26,7 +26,7 @@ export default function Projects() {
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
                                     src={project.image}
-                                    style={(id == 0 || id == 1) ? {height: "120%"} : {height: "100%"}}
+                                    style={(id === 0 || id === 1) ? {height: "120%"} : {height: "100%"}}
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 border-gray-900 opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">
