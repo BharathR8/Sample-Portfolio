@@ -19,6 +19,7 @@ export default function Contact() {
             method:"POST",
             headers:{"Content-Type": "application/x-www-form-urlencoded" },
             headers:{"Content-Type": "application/x-www-form-urlencoded"},
+            body: encode({ "form-name": "contact", name, email, message}),
         })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
@@ -48,12 +49,12 @@ export default function Contact() {
                                 EMAIL
                             </h2>
                             <p className="text-green-400 leading-relaxed">
-                                bharath.barakam@outlook.com
+                                bharathchandra.bcr@gmail.com
                             </p>
-                            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                            <h2 className="text-green-400 title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="text-green-400 leading-relaxed">360-209-9680</p>
+                            <p className="leading-relaxed">360-209-9680</p>
                         </div>
                     </div>
                 </div>
