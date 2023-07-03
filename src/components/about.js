@@ -10,7 +10,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" />I love to build amazing apps. 
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        An AWS Certified developer with over 5 years experience in Software Development specializing in building highly scalable and responsive web applications from front to back.
+                        An AWS Certified developer with more than 5 years of experience in Software Development specializing in building highly scalable and responsive web applications from front to back.
                     </p>
                     <div className="flex justify-center">
                         <a 

@@ -43,12 +43,12 @@ export default function Contact() {
                                 Bellevue, WA 98006
                             </p>
                         </div>
-                        <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 EMAIL
                             </h2>
                             <p className="text-green-400 leading-relaxed">
-                                bharathchandra.bcr@gmail.com
+                                bharath.barakam@outlook.com
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
@@ -66,8 +66,8 @@ export default function Contact() {
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                            I am a Software Developer with 5+ years of experience working with building responsive web applications from front to back proficient with a wide array of technologies ranging from JavaScript,React,HTML on the Front-End and Java,Node on the Back-End
-                        </p>
+                           I am a Software Developer with more than 5 years experience building web applications using a microservices based architecture with technologies ranging from Java, Springboot and Node on the Back-End to React, JavaScript, HTML and CSS on the Front-End.
+                        </p> 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
                                 Name
