@@ -8,7 +8,7 @@ export const projects = [
     {
         title: "Budget Planner App",
         subtitle: "MERN Stack",
-        description: "This was a budget planner app build to help user plan their finances better",
+        description: "This was a budget planner app build to help user plan their finances better.",
         image: "/images/budgety.jpg"
     },
     {
