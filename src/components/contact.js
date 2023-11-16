@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe 
                       title="Google address"
-                      src="https://www.google.com/mqps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY66dZWTgaQzuU17R8"
+                      src="https://www.google.com/maps/embed/v1/place?q=4181+129thPL+SE+Bellevue+city&key=AIzaSyD5HHhdug4HZoVqtl7Zbt1dGUBOYXQhKPs"
                     /> 
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
