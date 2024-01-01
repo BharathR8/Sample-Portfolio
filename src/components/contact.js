@@ -2,8 +2,10 @@ import React from 'react';
 
 export default function Contact() {
     const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
+    const [email, setEmail] = React.useState("bharath.barakam@outlook.com");
     const [message, setMessage] = React.useState("");
+    const [subject, setSubject] = React.useState("Test");
+    const [attach, setAttach] = React.useState("path");
 
     function encode(data) {
         return Object.keys(data)
@@ -15,32 +17,33 @@ export default function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("/", {
-            method:"POST",
-            headers:{"Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", name, email, message}),
-        })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
-    }
-    
+        // fetch("/", {
+        //     method:"POST",
+        //     headers:{"Content-Type": "application/x-www-form-urlencoded" },
+        //     body: encode({ "form-name": "contact", name, email, message}),
+        // })
+        // .then(() => alert("Message sent!"))
+        // .catch((error) => alert(error));
+        let location = "mailto:"+email;
+        window.open(
+            location,
+            '_blank' // <- This is what makes it open in a new window.
+        );
+    }   
 
     return(
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                    <iframe 
-                      title="Google address"
-                      src="https://www.google.com/maps/embed/v1/place?q=4181+129thPL+SE+Bellevue+city&key=AIzaSyD5HHhdug4HZoVqtl7Zbt1dGUBOYXQhKPs"
-                    /> 
-                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-center justify-start relative">
+                    <iframe style={{width: "100%", height: "100%"}} title="Google address" src="https://www.google.com/maps/embed/v1/place?q=16608+NE+37th+St,+Redmond,+WA+98052&key=AIzaSyD5HHhdug4HZoVqtl7Zbt1dGUBOYXQhKPs" /> 
+                    <div className="bg-gray-900 absolute flex flex-wrap py-6 rounded shadow-md" style={{marginBottom: -340}}>
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 ADDRESS
                             </h2>
                             <p className="text-green-400 mt-1">
-                                4181 129th PL SE, Apt X103 <br />
-                                Bellevue, WA 98006
+                                16608 NE 37th St, U1060 <br />
+                                Redmond, WA 98052
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
@@ -53,20 +56,21 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="text-green-400 leading-relaxed">360-209-9680</p>
-                        </div>
+                            <p className="text-green-400 leading-relaxed">(425) 588-8173</p>
+                        </div> 
                     </div>
                 </div>
                 <form
                     netlify
                     name="contact"
+                    action="mailto:emailid@example.com" method="post" enctype="text/plain"
                     onSubmit={handleSubmit}
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                         <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                           I am a Software Developer with more than 5 years experience building web applications using a microservices based architecture with technologies ranging from Java, Springboot and Node on the Back-End to React, JavaScript, HTML and CSS on the Front-End.
+                           I am a Software Developer with numerous years of experience building web applications using a microservices based architecture with technologies ranging from Java, Springboot and Node on the Back-End to React, JavaScript, HTML and CSS on the Front-End.
                         </p> 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
