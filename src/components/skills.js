@@ -12,7 +12,7 @@ export default function Skills() {
                     Skills &amp; Technologies
                 </h1>
                 <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                    I am proficient in a wide range of technologies such as React, JavaScript, WordPress, Java, C#, Node & PHP. 
+                    I am proficient in a wide range of technologies such as React, JavaScript, Java, Python, Node & Spring Boot. 
                 </p>
               </div>
               <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

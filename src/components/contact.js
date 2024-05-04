@@ -42,7 +42,7 @@ export default function Contact() {
                                 ADDRESS
                             </h2>
                             <p className="text-green-400 mt-1">
-                                16608 NE 37th St, U1060 <br />
+                                16626 NE 39th Way, Q2050 <br />
                                 Redmond, WA 98052
                             </p>
                         </div>
@@ -70,7 +70,7 @@ export default function Contact() {
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                           I am a Software Developer with numerous years of experience building web applications using a microservices based architecture with technologies ranging from Java, Springboot and Node on the Back-End to React, JavaScript, HTML and CSS on the Front-End.
+                           I am a Software Developer with numerous years of experience building web applications using a microservices based architecture with technologies ranging from Java, Springboot and Node on the Back-End to React, JavaScript, Angular, HTML and CSS on the Front-End.
                         </p> 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
