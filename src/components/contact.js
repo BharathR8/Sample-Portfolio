@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
     const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("bharath.barakam@outlook.com");
+    const [email, setEmail] = React.useState("bharathchandra.bcr@gmail.com");
     const [message, setMessage] = React.useState("");
     const [subject, setSubject] = React.useState("Test");
     const [attach, setAttach] = React.useState("path");
@@ -51,7 +51,7 @@ export default function Contact() {
                                 EMAIL
                             </h2>
                             <p className="text-green-400 leading-relaxed">
-                                bharath.barakam@outlook.com
+                                bharathchandra.bcr@gmail.com
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
