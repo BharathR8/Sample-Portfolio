@@ -13,7 +13,7 @@ export const projects = [
     },
     {
         title: "Forkify",
-        subtitle: "JavaScript, HTML & CSS",
+        subtitle: "C#, React, HTML & CSS",
         description: "This was a recipe search app wherein the user can search any recipe from a list of around 10,000 recipes rendered from an API.",
         image: "/images/forkify.jpg"
     },
@@ -25,6 +25,6 @@ export const projects = [
     },
 ]
 
-export const skills = ["Java", "Spring Boot", "React", "JavaScript", "Angular", "HTML", "Node", "My SQL"];
+export const skills = ["C#", "React", "JavaScript", "Java", "Spring Boot", "Angular", "HTML", "Node", "My SQL"];
 
 
