@@ -10,7 +10,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I love to build amazing apps. 
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        A Developer with numerous years of experience in Software Development and 5.5 years of experience as a ServiceNow developer, developing and maintaining custom applications, integrations, and automations.
+                        A Developer with numerous years of experience in Software Development and 5.5 years of ServiceNow development experience, developing and maintaining custom applications, integrations, and automations.
                     </p>
                     <div className="flex justify-center">
                         <a 
