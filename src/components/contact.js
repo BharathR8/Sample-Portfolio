@@ -37,15 +37,6 @@ export default function Contact() {
                 <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-center justify-start relative">
                     <iframe style={{width: "100%", height: "100%"}} title="Google address" src="https://www.google.com/maps/embed/v1/place?q=16626+NE+39th+Way,+Redmond,+WA+98052&key=AIzaSyD5HHhdug4HZoVqtl7Zbt1dGUBOYXQhKPs" /> 
                     <div className="bg-gray-900 absolute flex flex-wrap py-6 rounded shadow-md" style={{marginBottom: -340}}>
-                        <div className="lg:w-1/2 px-6">
-                            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                                ADDRESS
-                            </h2>
-                            <p className="text-green-400 mt-1">
-                                16626 NE 39th Way, Q2050 <br />
-                                Redmond, WA 98052
-                            </p>
-                        </div>
                         <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 EMAIL
@@ -70,7 +61,7 @@ export default function Contact() {
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                           I am a Software Developer with numerous years of experience building web applications using a microservices based architecture with technologies ranging from Java, Springboot and Node on the Back-End to React, JavaScript, Angular, HTML and CSS on the Front-End.
+                            I am a Software Developer with numerous years of experience in Software Development, speciailizing in building highly scalable and responsive web applications along with 5.5 years of experience in developing and maintaining custom applications, integrations and automations.
                         </p> 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
