@@ -60,7 +60,7 @@ export default function Contact() {
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                            I am a Software Developer with numerous years of experience in Software Development, speciailizing in building highly scalable and responsive web applications along with 5.5 years of experience in developing and maintaining custom applications, integrations and automations.
+                            I am a Software Developer with numerous years of experience in Software Development, speciailizing in building highly scalable and responsive web applications from front-to-back.
                         </p> 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
