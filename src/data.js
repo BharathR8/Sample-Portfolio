@@ -7,7 +7,7 @@ export const projects = [
     },
     {
         title: "Budget Planner App",
-        subtitle: "MERN Stack",
+        subtitle: "C#, .NET, JavaScript, HTML & CSS",
         description: "This was a budget planner app build to help user plan their finances better.",
         image: "/images/budgety.jpg"
     },
@@ -25,5 +25,5 @@ export const projects = [
     },
 ]
 
-export const skills = ["React", "JavaScript", "Java", "ServiceNow Madrid", "London", "New York"];
+export const skills = ["React", "JavaScript", "C#", ".NET", "Java", "Python"];
 
